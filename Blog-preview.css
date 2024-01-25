@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Bubble;
+    src: url("./fonts/Figtree-VariableFont_wght.ttf");
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(244, 208, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container
+{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 390px;
+    box-shadow: 10px 6px 2px black;
+}
+.container:hover{
+    cursor:pointer;
+}
+.container:active
+{
+    box-shadow: 20px 6px 2px black;
+    cursor: progress;
+}
+h2:active
+{
+    color:rgb(244, 208, 78) ;
+}
+.content img
+{
+    margin-top:20px ;
+    border-radius: 10px;
+}
+.img
+{
+    display: flex;
+    justify-content: center;
+}
+.para
+{
+    margin-left: 28px;
+    margin-top: 24px;
+    font-family: Bubble;
+}
+#learn
+{
+    font-family: Bubble;
+    font-weight: 900;
+    background-color: rgb(244, 208, 78);
+    padding: 7px;
+    border-radius: 5px;
+}
+#publish
+{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+#main
+{
+    width: 300px;
+    font-family: Bubble;
+    line-height: 25px;
+}
+.footer
+{
+    display: flex;
+    margin-bottom: 25px;
+}
+#author
+{
+    margin-top:40px ;
+}
+marquee
+{
+    font-family: Bubble;
+}
